@@ -25,9 +25,6 @@ struct ContentView: View {
                                     dataIndex: selectedIndex),
                     alignment: .bottom
                 )
-                .onAppear {
-                    print("...")
-                }
             
             if dataStore.dataArray.count == 0 {
                 Text("資料下載中...")
